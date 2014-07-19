@@ -1,0 +1,130 @@
+/*------------------------------------------
+* Patty Guclu Mockup v1
+* Author: Muhan Guclu
+* Author URL: http://magicmuhan.com
+*------------------------------------------*/
+
+/*------------------------------------------
+* General
+*------------------------------------------*/
+
+* {
+	-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	margin: 0px 0px;
+	padding: 0px 0px;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Lato', sans-serif;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	line-height: 180%;
+}
+
+.section {
+	padding: 15px 15px 55px;
+}
+
+/*------------------------------------------
+* Sidebar
+*------------------------------------------*/
+
+.sidebar {
+	background: #9c27b0;
+	position: relative;
+	padding: 25px 15px;
+	color: #f4f5f4;
+}
+
+/*------------------------------------------
+* Main Content
+*------------------------------------------*/
+
+.main {
+	background: #e1bee7;
+	padding: 25px 0px;
+}
+
+/*------------------------------------------
+* Skills
+*------------------------------------------*/
+
+.skills {
+	background: #d1c4e9;
+}
+
+.skills > h2 {
+	display: none;
+	letter-spacing: 0px;
+}
+
+.skillcont, .skillicon {
+	text-align: center;
+}
+
+.skillitem {
+	margin-bottom: 25px;
+}
+
+.skillicon img {
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+h2.skilltitle {
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+.fullskills p {
+	text-align: center;
+	letter-spacing: 0px;
+}
+
+/*------------------------------------------
+* Experience
+*------------------------------------------*/
+
+.experience {
+	background: #e1bee7;
+}
+
+.listcontainer {
+	text-align: center;
+}
+
+ul.explist li {
+	text-align: left;
+}
+
+/*------------------------------------------
+* Large Screen Tweaks
+*------------------------------------------*/
+
+@media screen and (min-width: 48em) {
+	.sidebar {
+		position: fixed;
+		height: 100vh;
+	}
+
+	.main {
+		margin-left: 25%;
+	}
+
+	.skills > h2 {
+		display: block;
+	}
+}
